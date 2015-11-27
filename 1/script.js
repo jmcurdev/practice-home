@@ -1,3 +1,7 @@
 $(document).ready(function(){
-	alert("Welcome to Ni");
+	$("#btnGithubTutorial").click(function(){
+		alert("This is an alert for Nichi");
+	});
 });
+
+

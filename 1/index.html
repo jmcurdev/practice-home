@@ -3,25 +3,38 @@
 <html>
 <head>
 	<title>Testing frontOne/1</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-2.1.4.js"></script>
+
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+
 	<script type="text/javascript" src="script.js"></script>
+
 </head>
 <body>
 <div class="container-fluid">
 	<div class="col-md-4">
-		<h2>Github Tutorial</h2>
-
+		<div class="well">
+			<h2 class="text-center">Github Tutorial</h2>
+				<button class="btn btn-info btn-block" disabled>Setting up an account</button>
+				<p>git config --global user.name "user_name"<br>git config --global user.email "email_id"</p>
+		</div>	
 	</div>
 	<div class="col-md-4">
-		<h2>Sass Tutorial</h2>
+		<div class="well">
+			<h2 class="text-center">Sass Tutorial</h2>
+		</div>
 	</div>
 	<div class="col-md-4">
-		<h2>By Juan Curti</h2>
+		<div class="well">
+			<h2 class="text-center">By Juan Curti</h2>
+			<button class="btn btn-block btn-primary" type="button" id="btnGithubTutorial">Try alert</button>
+		</div>
 	</div>
 </div>
+
+
 </body>
 </html>

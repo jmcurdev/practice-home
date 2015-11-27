@@ -1,4 +1,11 @@
 body {
-  background-color: blue; }
+  background-color: #A8A8A8; }
+  body div .btn-primary {
+    background-color: #333366;
+    border-color: #5555aa;
+    border-style: solid;
+    border-width: 3px; }
+    body div .btn-primary:hover {
+      background-color: #444488; }
 
 /*# sourceMappingURL=styles.css.map */
