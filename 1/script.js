@@ -1,6 +1,9 @@
 $(document).ready(function(){
-	$("#btnGithubTutorial").click(function(){
-		alert("This is an alert for Nichi");
+	$("#btnNini").click(function(){
+		
+		$("#resultBtnNini").toggle(200);
+		$("#resultBtnNini").css("display", "block");
+		$("#resultBtnNini").text("Holis!");
 	});
 });
 

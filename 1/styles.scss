@@ -2,8 +2,19 @@ $backGround: #A8A8A8;
 $buttonColor: #333366;
 
 body{
+	font-family: Ubuntu;
 	background-color: $backGround;
 	div{
+		.well{
+			#labelMenu{
+				font-size: 14px;
+			}
+			p{
+				font-size: 12px;
+				font-style: italic;
+			}
+			clear: both;
+		}
 		.btn-primary{
 			background-color: $buttonColor;
 			border-color: lighten($buttonColor, 20%);
@@ -13,5 +24,10 @@ body{
 			background-color: lighten($buttonColor, 10%);
 			}
 		}
+	}
+
+	#resultBtnNini{
+	font-size: 16px;
+	display: none;
 	}
 }

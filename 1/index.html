@@ -3,6 +3,8 @@
 <html>
 <head>
 	<title>Testing frontOne/1</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
@@ -18,19 +20,42 @@
 	<div class="col-md-4">
 		<div class="well">
 			<h2 class="text-center">Github Tutorial</h2>
-				<button class="btn btn-info btn-block" disabled>Setting up an account</button>
+				<span class="label label-success" id="labelMenu">Setting up an account</span>
 				<p>git config --global user.name "user_name"<br>git config --global user.email "email_id"</p>
+				<span class="label label-success" id="labelMenu">Creating a local repository</span>
+				<p>git init Repo_Name</p>
+				<span class="label label-success" id="labelMenu">Updating repository</span>
+				<p>git pull https://github.com/user-name/project-name</p>
+				<span class="label label-success" id="labelMenu">Adding/updating files</span>
+				<p>git add .</p>
+				<span class="label label-success" id="labelMenu">Committing changes</span>
+				<p>git commit -m "some_message"</p>
+				<span class="label label-success" id="labelMenu">Push to local repository</span>
+				<p><b>(Only the first time as I didn't get any need to use it later)</b><br>git remote add origin https://github.com/user_name/project-name</p>
+				<span class="label label-success" id="labelMenu">Push</span>
+				<p>git push origin master</p>
 		</div>	
 	</div>
 	<div class="col-md-4">
 		<div class="well">
 			<h2 class="text-center">Sass Tutorial</h2>
+			<span class="label label-success" id="labelMenu">Ruby Install</span>
+				<p>apt-get install rbenv</p>
+			<span class="label label-success" id="labelMenu">Sass Install</span>
+				<p>sudo su -c "gem install sass"<br>sudo gem install sass</p>
+			<span class="label label-success" id="labelMenu">Check Install</span>
+				<p>sass -v</p>
+			<span class="label label-success" id="labelMenu">Compile one time</span>
+				<p>sass file.scss file.css</p>
+			<span class="label label-success" id="labelMenu">Keep compiling</span>
+				<p>sass --watch file.scss:file.css</p>
 		</div>
 	</div>
 	<div class="col-md-4">
 		<div class="well">
 			<h2 class="text-center">By Juan Curti</h2>
-			<button class="btn btn-block btn-primary" type="button" id="btnGithubTutorial">Try alert</button>
+			<button class="btn btn-block btn-primary" type="button" id="btnNini">Try alert</button>
+			<p class="label label-danger" id="resultBtnNini"></p>
 		</div>
 	</div>
 </div>
