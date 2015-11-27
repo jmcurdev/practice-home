@@ -1,5 +1,6 @@
 $backGround: #A8A8A8;
 $buttonColor: #333366;
+$navbarText: #00CC66;
 
 body{
 	font-family: Ubuntu;
@@ -26,8 +27,46 @@ body{
 		}
 	}
 
+	.navbar{
+		.navbar-header{
+			background-color: darken($backGround, 50%);
+			opacity: 0.8;		
+			
+			.navbar-brand{
+				color: $navbarText;
+				&:hover{
+					color: lighten($navbarText, 20%);
+				}
+			}
+		}
+
+		#bs-menu-collapse-1{
+			a{
+				&:hover{
+					background-color: darken(#e7e7e7, 20%);
+				}
+			}
+		}
+	}
+
 	#resultBtnNini{
 	font-size: 16px;
 	display: none;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.navbar-brand{
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+}
+
+@media only screen and (minax-width: 501px){
+	.navbar-brand{
+		&:hover{
+			opacity: 0.5;
+		}
 	}
 }

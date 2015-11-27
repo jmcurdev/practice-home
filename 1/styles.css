@@ -15,8 +15,24 @@ body {
     border-width: 3px; }
     body div .btn-primary:hover {
       background-color: #444488; }
+  body .navbar .navbar-header {
+    background-color: #292929;
+    opacity: 0.8; }
+    body .navbar .navbar-header .navbar-brand {
+      color: #00CC66; }
+      body .navbar .navbar-header .navbar-brand:hover {
+        color: #33ff99; }
+  body .navbar #bs-menu-collapse-1 a:hover {
+    background-color: #b4b4b4; }
   body #resultBtnNini {
     font-size: 16px;
     display: none; }
+
+@media only screen and (max-width: 500px) {
+  .navbar-brand:hover {
+    opacity: 0.8; } }
+@media only screen and (minax-width: 501px) {
+  .navbar-brand:hover {
+    opacity: 0.5; } }
 
 /*# sourceMappingURL=styles.css.map */
